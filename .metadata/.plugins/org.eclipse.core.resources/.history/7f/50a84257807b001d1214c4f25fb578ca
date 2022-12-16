@@ -1,0 +1,7 @@
+package com.deloitte.repository;
+
+public interface AirlineRepository implements JpaRepository<Airline,Integer> {
+	
+	
+
+}

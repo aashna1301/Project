@@ -1,0 +1,26 @@
+package com.deloitte.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.deloitte.service.ServicesService;
+
+@RestController
+@RequestMapping("/services")
+public class ServicesController {
+	
+	@Autowired
+	private ServicesService servicesService;
+	
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	
+	
+	
+	
+	
+
+}

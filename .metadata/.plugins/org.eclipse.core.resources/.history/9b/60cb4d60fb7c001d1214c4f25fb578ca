@@ -1,0 +1,5 @@
+package com.deloitte.repository;
+
+public interface HelpRepository {
+
+}

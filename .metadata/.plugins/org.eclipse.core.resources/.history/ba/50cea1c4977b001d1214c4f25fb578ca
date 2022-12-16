@@ -1,0 +1,10 @@
+package com.deloitte.model;
+
+public class Booking {
+	
+	private Integer bid;
+	private String tName;
+	private Double bFare;
+	private Integer fid;
+
+}

@@ -1,0 +1,25 @@
+package com.deloitte.model;
+
+public class Services {
+	
+	private String meal;
+	private Integer exBag;
+	private String insurance;
+	
+	
+	public Services() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public Services(String meal, Integer exBag, String insurance) {
+		super();
+		this.meal = meal;
+		this.exBag = exBag;
+		this.insurance = insurance;
+	}
+	
+	
+
+}

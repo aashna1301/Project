@@ -1,0 +1,10 @@
+package com.deloitte.service;
+
+import com.deloitte.entity.Airline;
+
+public interface AirlineService {
+	
+	public Airline getAirline(Integer id);
+	public List<Airline> getAirlines();
+
+}

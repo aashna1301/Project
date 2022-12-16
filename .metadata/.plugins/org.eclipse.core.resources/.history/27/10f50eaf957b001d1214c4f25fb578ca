@@ -1,0 +1,15 @@
+package com.deloitte.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.deloitte.service.AirlineService;
+
+@RestController
+@RequestMapping("/airlines")
+public class AirlineController {
+	
+	private AirlineService airlineService;
+	
+
+}

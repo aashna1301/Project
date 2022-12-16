@@ -1,0 +1,21 @@
+package com.deloitte.service;
+
+import java.util.List;
+
+import com.deloitte.entity.Services;
+
+public class ServicesServiceImpl implements ServicesService {
+
+	@Override
+	public List<Services> getAllServices() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Services getService() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

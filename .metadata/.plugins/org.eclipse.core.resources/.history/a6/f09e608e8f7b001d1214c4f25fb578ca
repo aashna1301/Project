@@ -1,0 +1,7 @@
+package com.deloitte.service;
+
+public interface AirlineService {
+	
+	public Airline getAirline(Integer id);
+
+}

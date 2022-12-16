@@ -1,0 +1,21 @@
+package com.deloitte.service;
+
+import java.util.List;
+
+import com.deloitte.entity.Booking;
+
+public class BookingServiceImpl implements BookingService{
+
+	@Override
+	public List<Booking> getBookings() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Booking getBookingById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

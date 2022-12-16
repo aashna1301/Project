@@ -1,0 +1,12 @@
+package com.deloitte.service;
+
+import java.util.List;
+
+import com.deloitte.entity.Booking;
+
+public interface BookingService {
+	
+	public List<Booking> getBookings();
+	
+
+}

@@ -1,0 +1,27 @@
+package com.deloitte.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.deloitte.entity.Airline;
+import com.deloitte.repository.AirlineRepository;
+
+@Service
+public class AirlineServiceImpl implements AirlineService{
+	
+	@Autowired
+	private AirlineRepository airlineRepository;
+
+	@Override
+	public Airline getAirline(Integer id) {
+		
+		return airlineRepository.findById(id).get();
+	}
+	
+	
+	
+
+	
+	
+
+}

@@ -1,0 +1,13 @@
+package com.deloitte.model;
+
+import java.util.List;
+
+import com.deloitte.entity.Booking;
+
+
+
+public class Response {
+
+	private Booking booking;
+	private List<Services> bookings;
+}

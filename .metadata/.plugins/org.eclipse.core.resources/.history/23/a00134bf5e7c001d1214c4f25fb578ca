@@ -1,0 +1,39 @@
+package com.deloitte.entity;
+
+public class Services {
+	
+	private String meal;
+	private Integer exBag;
+	private String insurance;
+	public Services() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Services(String meal, Integer exBag, String insurance) {
+		super();
+		this.meal = meal;
+		this.exBag = exBag;
+		this.insurance = insurance;
+	}
+	public String getMeal() {
+		return meal;
+	}
+	public void setMeal(String meal) {
+		this.meal = meal;
+	}
+	public Integer getExBag() {
+		return exBag;
+	}
+	public void setExBag(Integer exBag) {
+		this.exBag = exBag;
+	}
+	public String getInsurance() {
+		return insurance;
+	}
+	public void setInsurance(String insurance) {
+		this.insurance = insurance;
+	}
+	
+	
+
+}
